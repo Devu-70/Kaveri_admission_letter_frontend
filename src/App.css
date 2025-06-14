@@ -1,0 +1,21 @@
+/* Custom Scrollbar for AgentManagement */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #000; /* Black background for the scrollbar track */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #666; /* Gray thumb */
+  border-radius: 4px;
+  border: 2px solid #000; /* Padding space around thumb */
+}
+
+/* For Firefox */
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #666 #000;
+}
+
